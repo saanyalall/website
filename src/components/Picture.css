@@ -1,0 +1,56 @@
+/* Picture.css */
+
+.picture-container {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.image {
+  width: 74rem;
+}
+
+.small-image {
+  position: absolute;
+  width: 21rem;
+}
+
+#fresh-image {
+  /* width: 16rem; */
+  top: 28%;
+  left: 19%;
+}
+
+#look-image {
+  /* width: 15rem; */
+  top: 63%;
+  left: 20%;
+}
+
+#year-image {
+  /* width: 15rem; */
+  top: 49%;
+  left: 32%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .small-image {
+    width: 10rem; /* Adjusted width for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+  

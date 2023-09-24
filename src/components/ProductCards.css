@@ -1,0 +1,50 @@
+/* ProductCards.css */
+
+.product-group {
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 100%;
+  margin: 1rem;
+}
+/* ProductCards.css */
+
+.product-categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.product-categories p {
+  flex: 1; /* Each category takes equal space */
+  text-align: center;
+  margin: 10px 0; /* Add some spacing between categories */
+}
+
+@media (max-width: 768px) {
+  .product-categories p {
+    flex: 0 0 48%; /* Two categories per row on smaller screens */
+  }
+}
+
+
+@media (min-width: 576px) {
+  .product-card {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-card {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-card {
+    width: 22%;
+  }
+}
+
+  

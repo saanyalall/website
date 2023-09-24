@@ -1,0 +1,44 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: black;
+    color: darkgray;
+    padding: 5rem;
+    position: relative;
+    font-family: initial;
+    font-weight: bold;
+  }
+  
+  .content {
+    margin: 5rem;
+  }
+  
+  .image-1 {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+   
+  }
+  
+  .image-2 {
+    width: 8rem;
+    position: absolute;
+    right:5rem ;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 576px) {
+    .content {
+      margin: 2rem;
+    }
+  
+    .image-1 {
+      width: 50%; /* Adjusted width for smaller screens */
+    }
+  
+    .image-2 {
+      width: 4rem; /* Adjusted width for smaller screens */
+    }
+  }
+  
+  
